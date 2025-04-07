@@ -47,7 +47,7 @@ ng generate component layout/footer
 - `navbar`: contiene los botones de navegación.
 - `footer`: incluye información legal o enlaces.
 
->.[!IMPORTANT]
+>[!IMPORTANT]
 >Asegúrate de usar routerLink en los botones del navbar para una navegación fluida.
 ---
 
@@ -67,7 +67,7 @@ ng generate component layout/main-layout
 
 - Se configuró como base en el sistema de rutas.
 
->.[!TIP]
+>[!TIP]
 >Esto permite reutilizar la estructura general en todas las vistas principales.
 ---
 
@@ -94,13 +94,9 @@ ng generate component pages/login
 - Al iniciar sesión, redirige a `/dashboard`.
 - Navbar cambia dinámicamente a mostrar "Cerrar sesión" y acceso al dashboard.
 
->.[!WARNING]
+>[!WARNING]
 >No se implementa seguridad real. Es solo una simulación de flujo.
 ---
-
-## .[!WARNING]
-
-No se implementa seguridad real. Es solo una simulación de flujo.8. Dashboard
 
 ```bash
 ng generate component pages/dashboard
@@ -122,7 +118,7 @@ Contiene:
   - Sección "Transferencias recientes" con usuarios frecuentes.
   - Al seleccionar uno, se autocompletan los datos en el formulario.
 
->.[!NOTE]
+>[!NOTE]
 >Este componente mejora la experiencia del usuario con historial y autocompletado.
 ---
 
