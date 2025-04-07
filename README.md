@@ -12,7 +12,7 @@ ng new banco-app
 cd banco-app
 ng serve
 ```
->.[!TIP]
+>[!TIP]
 >Usa ng serve -o para abrir automáticamente el navegador.
 
 ## 🎨2. Configuración de Estilos
@@ -20,7 +20,7 @@ ng serve
 - Se editaron estilos globales en `src/styles.css`.
 - Se añadieron fuentes y estilos base.
 
->.[!NOTE]
+>[!NOTE]
 >Aquí puedes integrar Bootstrap, Tailwind u otro framework si deseas escalar la UI más fácilmente.
 ---
 
